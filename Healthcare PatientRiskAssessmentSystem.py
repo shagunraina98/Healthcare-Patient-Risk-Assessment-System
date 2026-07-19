@@ -19,3 +19,6 @@ elif heart_rate > 100 or age > 60:
 else:
     print("Risk Level: Low")
     print("Recommendation: Patient is healthy and can go home after consultation.")
+if age >= 75:
+  print("Senior Citizen")
+  print("Priority Consultation Required")
