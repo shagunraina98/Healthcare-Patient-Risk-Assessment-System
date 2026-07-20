@@ -29,3 +29,6 @@ elif insurance == "no":
 
 else:
     print("Invalid patient information entered.")
+if age >= 65 and insurance == "yes" and policy == "active" and cost <= 500000:
+    print("Senior Citizen Benefit Applied")
+    print("5% Discount on Hospital Service Charges")
